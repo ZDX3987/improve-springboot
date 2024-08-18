@@ -1,0 +1,2 @@
+org.springframework.boot.BootstrapRegistryInitializer=cn.zhangdx.initializer.MyBootRegistryInitializer
+org.springframework.context.ApplicationContextInitializer=cn.zhangdx.initializer.MyApplicationContextInitializer

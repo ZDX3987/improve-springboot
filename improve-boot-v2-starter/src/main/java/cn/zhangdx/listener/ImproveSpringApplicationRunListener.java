@@ -1,4 +1,4 @@
-package cn.zhangdx.improve.listener;
+package cn.zhangdx.listener;
 
 import org.springframework.boot.SpringApplicationRunListener;
 

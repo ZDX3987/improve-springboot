@@ -1,4 +1,4 @@
-package cn.zhangdx.improve.listener;
+package cn.zhangdx.listener;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.BootstrapContextClosedEvent;
