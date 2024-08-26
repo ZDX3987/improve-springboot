@@ -1,5 +1,7 @@
 spring:
-  datasource:
-    url: jdbc:mysql://rm-wz9y4w067z3i4u1tr1o.mysql.rds.aliyuncs.com:3306/hello-mysql
-    username: zhangdx
-    password: Zz196810486
+  application:
+    name: Improve-Springboot-Zhangdx
+  profiles:
+    active: dev
+server:
+  port: 9111

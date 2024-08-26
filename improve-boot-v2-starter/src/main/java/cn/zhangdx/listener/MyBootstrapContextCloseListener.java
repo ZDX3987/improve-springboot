@@ -10,7 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  * @date 2024/8/18 12:08
  */
 @Slf4j
-public class BootstrapContextCloseListener implements ApplicationListener<BootstrapContextClosedEvent> {
+public class MyBootstrapContextCloseListener implements ApplicationListener<BootstrapContextClosedEvent> {
 
     @Override
     public void onApplicationEvent(BootstrapContextClosedEvent event) {

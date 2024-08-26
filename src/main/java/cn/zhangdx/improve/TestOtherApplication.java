@@ -9,6 +9,7 @@ import org.springframework.boot.SpringApplication;
 public class TestOtherApplication {
 
     public static void main(String[] args) {
+        args = new String[]{"--server.port=9112"};
         // SpringBoot启动的main方法可以是任何类中的，但是 SpringApplication.run() 方法的参数必须是包含 @SpringBootApplication 注解的类
         SpringApplication.run(ImproveSpringbootApplication.class, args);
     }

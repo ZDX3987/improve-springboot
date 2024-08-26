@@ -1,5 +1,6 @@
 package cn.zhangdx.improve.event;
 
+import lombok.Data;
 import org.springframework.context.ApplicationEvent;
 
 /**
@@ -7,7 +8,15 @@ import org.springframework.context.ApplicationEvent;
  * @date 2022/5/24 21:38
  */
 public class UserRegisterEvent extends ApplicationEvent {
-    public UserRegisterEvent(Object source) {
+
+    private String username;
+
+    public UserRegisterEvent(Object source, String username) {
         super(source);
+        this.username = username;
+    }
+
+    public String getUsername() {
+        return this.username;
     }
 }

@@ -1,2 +1,4 @@
 org.springframework.boot.BootstrapRegistryInitializer=cn.zhangdx.initializer.MyBootRegistryInitializer
 org.springframework.context.ApplicationContextInitializer=cn.zhangdx.initializer.MyApplicationContextInitializer
+org.springframework.boot.SpringApplicationRunListener=cn.zhangdx.listener.MySpringApplicationRunListener
+org.springframework.context.ApplicationListener=cn.zhangdx.listener.MySpringApplicationEventListener
