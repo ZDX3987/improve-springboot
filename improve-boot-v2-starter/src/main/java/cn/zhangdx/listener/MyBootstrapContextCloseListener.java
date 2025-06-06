@@ -15,6 +15,6 @@ public class MyBootstrapContextCloseListener implements ApplicationListener<Boot
     @Override
     public void onApplicationEvent(BootstrapContextClosedEvent event) {
         ConfigurableApplicationContext applicationContext = event.getApplicationContext();
-        log.info("监听到SpringBoot启动器关闭事件------------------{}", applicationContext.getDisplayName());
+        log.info("监听到SpringBoot引导器关闭事件----------, BeanDefinitionNames:{}", applicationContext.getBeanDefinitionNames().length);
     }
 }
