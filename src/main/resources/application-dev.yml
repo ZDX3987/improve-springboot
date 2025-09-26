@@ -3,3 +3,10 @@ spring:
     url: jdbc:mysql://rm-wz9y4w067z3i4u1tr1o.mysql.rds.aliyuncs.com:3306/zhangdx_test
     username: zhangdx
     password: Zz196810486
+
+file:
+  upload:
+    folder:
+      web-file: assert_file
+      article-file: articles
+      user-file: user_file

@@ -3,5 +3,3 @@ spring:
     name: Improve-Springboot-Zhangdx
   profiles:
     active: dev
-server:
-  port: 9111
