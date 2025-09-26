@@ -1,15 +1,20 @@
 package cn.zhangdx.improve.service.impl;
 
 import cn.hutool.core.util.IdUtil;
+import cn.zhangdx.improve.dao.ImproveBlogContentMapper;
 import cn.zhangdx.improve.model.ImproveBlogContent;
 import cn.zhangdx.improve.service.ImproveBlogContentService;
 import cn.zhangdx.improve.service.PraiseContentSupport;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Slf4j
 @Service
 public class ImproveBlogContentServiceImpl implements ImproveBlogContentService, PraiseContentSupport {
+
+    @Autowired
+    private ImproveBlogContentMapper improveBlogContentMapper;
 
     /**
      * 对内容点赞
